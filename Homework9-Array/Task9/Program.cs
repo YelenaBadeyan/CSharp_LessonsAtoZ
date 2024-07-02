@@ -1,4 +1,6 @@
-﻿namespace Arrays
+﻿using System;
+
+namespace Arrays
 {
     class MergeArrays
     {
@@ -13,28 +15,24 @@
 
             for (int i = 0; i < resultArray.Length; i++)
             {
-                if (indexA < firstArray.Length && firstArray[indexA] <= secondArray[indexB])
+                if (indexA < firstArray.Length && (indexB >= secondArray.Length || firstArray[indexA] <= secondArray[indexB]))
                 {
                     resultArray[i] = firstArray[indexA];
                     indexA++;
                 }
                 else
                 {
-                    if (indexB < secondArray.Length)
-                    {
-                        resultArray[i] = secondArray[indexB];
-                        indexB++;
-                    }
+                    resultArray[i] = secondArray[indexB];
+                    indexB++;
                 }
-
-
-                Array.
-
-                for (int i = 0; i < resultArray.Length; i++)
-                {
-                    Console.WriteLine(resultArray[i]);
-                }
-                Console.ReadLine();
             }
+            Console.WriteLine("Merged Array:");
+            for (int i = 0; i < resultArray.Length; i++)
+            {
+                Console.WriteLine(resultArray[i]);
+            }
+
+            Console.ReadLine();
         }
     }
+}
