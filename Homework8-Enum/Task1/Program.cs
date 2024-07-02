@@ -18,6 +18,7 @@ namespace WeatherEnumExample
 
             switch (todayWeather)
             {
+
                 case WeatherCondition.Sunny:
                     Console.WriteLine("It's a sunny day today!");
                     break;
