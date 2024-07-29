@@ -165,11 +165,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task9", "Homework10-Methods
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework12-Abstract Classes", "Homework12-Abstract Classes", "{45312FF9-FA7E-4801-A9A1-3CD3795D2726}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Homework12_Abstract Classes\Task1\Task1.csproj", "{EF5798B5-31AA-49DF-8CE9-F30FB1EE3C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1", "Homework12_Abstract Classes\Task1\Task1.csproj", "{EF5798B5-31AA-49DF-8CE9-F30FB1EE3C92}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{E99F85DB-C58D-4E8C-B1E9-BC8AC3F14B97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "Task3\Task3.csproj", "{4AF6C695-E46F-46A1-B5B4-454A9388FA8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PizzaFactories", "PizzaFactories", "{585ED73A-458C-4445-B05A-482213B9A221}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaFactories", "PizzaFactories\PizzaFactories\PizzaFactories.csproj", "{AD85D8B1-EB81-43E7-8F6D-D613AAC4D1A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -473,6 +477,10 @@ Global
 		{4AF6C695-E46F-46A1-B5B4-454A9388FA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AF6C695-E46F-46A1-B5B4-454A9388FA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AF6C695-E46F-46A1-B5B4-454A9388FA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD85D8B1-EB81-43E7-8F6D-D613AAC4D1A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD85D8B1-EB81-43E7-8F6D-D613AAC4D1A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD85D8B1-EB81-43E7-8F6D-D613AAC4D1A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD85D8B1-EB81-43E7-8F6D-D613AAC4D1A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -552,6 +560,7 @@ Global
 		{EF5798B5-31AA-49DF-8CE9-F30FB1EE3C92} = {45312FF9-FA7E-4801-A9A1-3CD3795D2726}
 		{E99F85DB-C58D-4E8C-B1E9-BC8AC3F14B97} = {45312FF9-FA7E-4801-A9A1-3CD3795D2726}
 		{4AF6C695-E46F-46A1-B5B4-454A9388FA8A} = {45312FF9-FA7E-4801-A9A1-3CD3795D2726}
+		{AD85D8B1-EB81-43E7-8F6D-D613AAC4D1A6} = {585ED73A-458C-4445-B05A-482213B9A221}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6840A27-803E-41F0-89F0-C90D4EB126EF}
