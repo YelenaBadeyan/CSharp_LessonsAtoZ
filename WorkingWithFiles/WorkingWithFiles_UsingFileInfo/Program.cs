@@ -31,6 +31,15 @@ namespace WorkingWithFiles_UsingFileInfo
                 Console.WriteLine(fileContent);
             }
 
+            //Moving the file from one place to another
+
+
+            string newPath = @"C:\Users\Yelena.Badeyan\Desktop\Files";
+
+            newFile.MoveTo(newPath);
+
+
+
 
         }
     }
