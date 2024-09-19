@@ -185,7 +185,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2", "Homework15\Task2\T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bookstore_Management_System", "Bookstore_Management_System", "{162F8F6D-C6E1-4E64-9D26-4E6924DB0663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainProgram", "Bookstore_Management_System\MainProgram\MainProgram.csproj", "{5396761B-F76D-487B-985B-949D8F6470A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProgram", "Bookstore_Management_System\MainProgram\MainProgram.csproj", "{5396761B-F76D-487B-985B-949D8F6470A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dictionary", "Dictionary", "{4CFBF664-4A7A-49E7-8132-EE8D06294942}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Main", "Dictionary\Main\Main.csproj", "{D1FA0098-C005-456A-987A-6C008C2F177F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkingWithFiles", "WorkingWithFiles", "{60ABD2CA-4BE3-4DC4-9B57-87C230C6A48D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithFiles", "WorkingWithFiles\WorkingWithFiles\WorkingWithFiles.csproj", "{814A4EBF-8511-4B49-ADDE-FBEA1F144F20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -509,6 +517,14 @@ Global
 		{5396761B-F76D-487B-985B-949D8F6470A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5396761B-F76D-487B-985B-949D8F6470A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5396761B-F76D-487B-985B-949D8F6470A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FA0098-C005-456A-987A-6C008C2F177F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FA0098-C005-456A-987A-6C008C2F177F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FA0098-C005-456A-987A-6C008C2F177F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FA0098-C005-456A-987A-6C008C2F177F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{814A4EBF-8511-4B49-ADDE-FBEA1F144F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{814A4EBF-8511-4B49-ADDE-FBEA1F144F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{814A4EBF-8511-4B49-ADDE-FBEA1F144F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{814A4EBF-8511-4B49-ADDE-FBEA1F144F20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -593,6 +609,8 @@ Global
 		{4B5F2DBE-82A7-4C02-8C8B-BDACE2E07D94} = {351FFCD4-ABAE-4785-88A7-0AEC728D3BF9}
 		{32CD86B4-6F4F-4891-8594-31CBC58F2B7E} = {351FFCD4-ABAE-4785-88A7-0AEC728D3BF9}
 		{5396761B-F76D-487B-985B-949D8F6470A7} = {162F8F6D-C6E1-4E64-9D26-4E6924DB0663}
+		{D1FA0098-C005-456A-987A-6C008C2F177F} = {4CFBF664-4A7A-49E7-8132-EE8D06294942}
+		{814A4EBF-8511-4B49-ADDE-FBEA1F144F20} = {60ABD2CA-4BE3-4DC4-9B57-87C230C6A48D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6840A27-803E-41F0-89F0-C90D4EB126EF}
