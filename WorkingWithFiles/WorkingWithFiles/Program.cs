@@ -51,5 +51,13 @@ class Program
         }
 
         Console.WriteLine("All persons' information saved.");
+
+        Console.WriteLine("Reading from the file");
+
+        using (var file = File.OpenText(customPath))
+        {
+            var fileContent = file.ReadToEnd();
+            Console.WriteLine(fileContent);
+        }
     }
 }
