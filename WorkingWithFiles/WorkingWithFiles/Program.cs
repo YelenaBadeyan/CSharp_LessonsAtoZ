@@ -52,6 +52,8 @@ class Program
 
         Console.WriteLine("All persons' information saved.");
 
+        //second part
+
         Console.WriteLine("Reading from the file");
 
         using (var file = File.OpenText(customPath))
