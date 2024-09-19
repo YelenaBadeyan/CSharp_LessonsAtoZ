@@ -40,12 +40,12 @@ class Program
         // the custom path for the file
         string customPath = @"C:\Users\Yelena.Badeyan\Downloads\Person.txt";
 
-        using (Person person1 = new Person("John Doe", 30, customPath))
+        using (Person person1 = new Person("Mery", 30, customPath))
         {
             person1.SaveToFile();
         }
 
-        using (Person person2 = new Person("Jane Doe", 25, customPath))
+        using (Person person2 = new Person("Jane", 25, customPath))
         {
             person2.SaveToFile();
         }
