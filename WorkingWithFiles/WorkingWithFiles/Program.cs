@@ -34,23 +34,14 @@ class Person : IDisposable
 
     public void SaveToFile()
     {
-        try
-        {
+
             if (_writer != null)
             {
                 string personInfo = $"Name: {Name}, Age: {Age}";
                 _writer.WriteLine(personInfo);
                 Console.WriteLine($"Person saved: {personInfo}");
             }
-        }
-        catch (ObjectDisposedException ex)
-        {
-            Console.WriteLine($"Error: Attempted to write to a closed file. {ex.Message}");
-        }
-        catch (IOException ex)
-        {
-            Console.WriteLine($"Error: Writing to file failed. {ex.Message}");
-        }
+ 
     }
 
     public void Dispose()
