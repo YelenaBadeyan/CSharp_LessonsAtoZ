@@ -15,19 +15,11 @@ namespace Delegate_Callback
             var isCustomer = myBank.IsCustomer(person);
             Console.WriteLine($"Is Customer: {isCustomer} ");
 
-            myBank.OrderCard(person, SendNotificationViaSMS);
+            MyDelegate delegateInstance = myBank.SendNotificationViaSMS;
 
-             void SendNotificationViaSMS(bool ifCardOrdered)
-            {
-                if (ifCardOrdered)
-                {
-                    Console.WriteLine("Your card is ordered successfully!");
-                }
-                else
-                {
-                    Console.WriteLine("Failed to order the card.");
-                }
-            }
+            myBank.OrderCard(person, delegateInstance);
+
+ 
 
         }
     }
@@ -80,8 +72,20 @@ namespace Delegate_Callback
                 callback(false); 
             }
         }
-            
-        
+
+        public void SendNotificationViaSMS(bool ifCardOrdered)
+        {
+            if (ifCardOrdered)
+            {
+                Console.WriteLine("Your card is ordered successfully!");
+            }
+            else
+            {
+                Console.WriteLine("Failed to order the card.");
+            }
+        }
+
+
     }
 
 
