@@ -193,15 +193,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Main", "Dictionary\Main\Mai
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkingWithFiles", "WorkingWithFiles", "{60ABD2CA-4BE3-4DC4-9B57-87C230C6A48D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithFiles_StreamWriter", "WorkingWithFiles\WorkingWithFiles\WorkingWithFiles_StreamWriter.csproj", "{814A4EBF-8511-4B49-ADDE-FBEA1F144F20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithFiles_StreamWriter", "WorkingWithFiles\WorkingWithFiles\WorkingWithFiles_StreamWriter.csproj", "{814A4EBF-8511-4B49-ADDE-FBEA1F144F20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithFiles_UsingFileClass", "WorkingWithFiles\WorkingWithFiles_UsingFileClass\WorkingWithFiles_UsingFileClass.csproj", "{B99E40E5-CE8A-4D33-98D2-CC5524978922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithFiles_UsingFileClass", "WorkingWithFiles\WorkingWithFiles_UsingFileClass\WorkingWithFiles_UsingFileClass.csproj", "{B99E40E5-CE8A-4D33-98D2-CC5524978922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithFiles_UsingFileInfo", "WorkingWithFiles\WorkingWithFiles_UsingFileInfo\WorkingWithFiles_UsingFileInfo.csproj", "{2955D0D6-E554-4920-A8D0-76E023615F82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithFiles_UsingFileInfo", "WorkingWithFiles\WorkingWithFiles_UsingFileInfo\WorkingWithFiles_UsingFileInfo.csproj", "{2955D0D6-E554-4920-A8D0-76E023615F82}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegate_Callback", "Delegate_Callback", "{12BBCDFF-D773-4E43-9D12-63666E12C41B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate_Callback", "Delegate_Callback\Delegate_Callback\Delegate_Callback.csproj", "{882C0A6B-90BF-4674-B502-171FF56D98C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate_Callback", "Delegate_Callback\Delegate_Callback\Delegate_Callback.csproj", "{882C0A6B-90BF-4674-B502-171FF56D98C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pagination", "Pagination", "{648F2734-CF53-423C-919D-3076C14FA3B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pagination", "Pagination\Pagination\Pagination.csproj", "{FC8E58A9-6492-463A-8FA1-F6E351963CC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -545,6 +549,10 @@ Global
 		{882C0A6B-90BF-4674-B502-171FF56D98C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{882C0A6B-90BF-4674-B502-171FF56D98C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{882C0A6B-90BF-4674-B502-171FF56D98C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8E58A9-6492-463A-8FA1-F6E351963CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8E58A9-6492-463A-8FA1-F6E351963CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8E58A9-6492-463A-8FA1-F6E351963CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8E58A9-6492-463A-8FA1-F6E351963CC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -634,6 +642,7 @@ Global
 		{B99E40E5-CE8A-4D33-98D2-CC5524978922} = {60ABD2CA-4BE3-4DC4-9B57-87C230C6A48D}
 		{2955D0D6-E554-4920-A8D0-76E023615F82} = {60ABD2CA-4BE3-4DC4-9B57-87C230C6A48D}
 		{882C0A6B-90BF-4674-B502-171FF56D98C0} = {12BBCDFF-D773-4E43-9D12-63666E12C41B}
+		{FC8E58A9-6492-463A-8FA1-F6E351963CC5} = {648F2734-CF53-423C-919D-3076C14FA3B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6840A27-803E-41F0-89F0-C90D4EB126EF}
