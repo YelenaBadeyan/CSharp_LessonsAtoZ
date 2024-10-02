@@ -12,7 +12,7 @@ namespace Pagination
             PaginationRequest<Person> result = new PaginationRequest<Person>(2, 1, customers, p => p.Id > 2);
             foreach (var customer in result)
             {
-                Console.WriteLine(customer.Id);
+                Console.WriteLine($"ID: {customer.Id}, Name: {customer.Name}, Age: {customer.Age}");
             }
         }
     }

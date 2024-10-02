@@ -20,15 +20,17 @@ namespace Pagination
 
         public IEnumerable<T> GetResponse()
         {
+            var result = Source.Where(Filter).ToList();
 
-            List<T> result = new List<T>();
-            foreach (var item in Source)
-            {
-                if (Filter(item))
-                {
-                    result.Add(item);
-                }
-            }
+            //List<T> result = new List<T>();
+
+            //foreach (var item in Source)
+            //{
+            //    if (Filter(item))
+            //    {
+            //        result.Add(item);
+            //    }
+            //}
 
             int totalCount = result.Count();
             int totalPages = (int)Math.Ceiling((decimal)totalCount / PageSize);
